@@ -1,0 +1,50 @@
+.header
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-bottom: 10px
+    &__account-btn
+        width: 66px
+        display: flex
+        justify-content: center
+        align-items: center
+    &__account-btn:hover .nav-svg
+        fill: #6666cc
+    &__account
+        display: flex
+        flex-direction: row
+        align-items: center
+        gap: 16px
+        &_logo
+            display: none
+        &_notify
+            display: flex !important
+            flex-direction: row
+            gap: 10px
+        &_burger
+            display: none
+            &::after
+                content: ""
+                position: relative
+                top: -5px
+                width: 21px
+                height: 2px
+                border-radius: 1px
+                background-color: #7d7d7d
+                box-shadow: 0 5px 0 0 #7d7d7d, 0 10px 0 0 #7d7d7d
+        &_burger:hover
+            &::after
+                background-color: #6666cc
+                box-shadow: 0 5px 0 0 #6666cc , 0 10px 0 0 #6666cc
+        &_person
+            box-shadow: 0px 0px 16px 0px rgba(136, 167, 245, 0.18)
+            width: 257px
+            display: flex
+            align-items: center
+            gap: 10px
+            &_name
+                color: #7d7d7d
+            &_avatar
+                border-radius: 50%
+                width: 45px
+                height: 45px

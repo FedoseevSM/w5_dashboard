@@ -1,0 +1,64 @@
+@media screen and (max-width: 1149px)
+    .sidebar
+        position: absolute
+        left: -255px
+        &__logo_burger
+            display: flex
+            &::after,
+            &::before
+                display: flex
+    .header
+        &__account_burger
+            display: flex
+    .header__account_logo
+        display: block
+
+@media screen and (max-width: 767px)
+    .header, .header__account
+        flex-direction: column
+        align-items: start
+    .header
+        margin-bottom: 30px
+    .container
+        padding-left: 30px
+        padding-right: 30px
+    .header__crumbs
+        order: 2
+    .header__account
+        margin-bottom: 30px
+    .main__panel_store_table-head
+        display: none
+    .main__panel_store_table-item,
+    .main__panel_store_table-item-btn
+        display: flex
+        flex-wrap: wrap
+    .main__panel_store_table-item-head
+        display: block
+    .main__panel_store_table-item
+        margin-bottom: 36px
+        &:nth-last-child(1)
+            margin: 0
+    .main__panel_store_table-item td
+        min-width: 50%
+        height: 100%
+    .main__panel_store_table-item-content
+        padding: 18px 0
+    .modal-body__design
+        flex-direction: column
+        gap: 30px
+    .modal
+        --bs-modal-width: 320px
+    .modal-dialog
+        margin: 40px 8% auto 8%
+    .modal-body__url_span
+        padding: 0 5px
+    .modal-body__design-template_select,
+    .modal-body__design-color_select
+        width: 210px
+
+
+._burger-active
+    left: 0
+    width: 255px
+    height: 100%
+    z-index: 5
