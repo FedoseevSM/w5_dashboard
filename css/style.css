@@ -240,6 +240,10 @@ a:active, button:active, .header__account_burger:active {
   fill: #6666cc;
 }
 
+.sidebar__nav li:last-child {
+  margin-bottom: 60px;
+}
+
 .nav-svg {
   fill: #7b7b7b;
   width: 20px;
@@ -582,7 +586,7 @@ a:active, button:active, .header__account_burger:active {
     position: fixed;
     left: -255px;
     width: 255px;
-    height: 100vh !important;
+    height: 100vh;
   }
   .sidebar__logo_burger {
     display: -webkit-box;
@@ -593,9 +597,6 @@ a:active, button:active, .header__account_burger:active {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  .sidebar_nav {
-    height: 100%;
   }
   .header__account_burger {
     display: -webkit-box;
@@ -710,6 +711,7 @@ a:active, button:active, .header__account_burger:active {
 ._burger-active {
   left: 0;
   z-index: 5;
+  overflow: auto !important;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {

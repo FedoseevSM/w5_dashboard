@@ -3,14 +3,12 @@
         position: fixed
         left: -255px
         width: 255px
-        height: 100vh !important
+        height: 100vh
         &__logo_burger
             display: flex
             &::after,
             &::before
                 display: flex
-        &_nav
-            height: 100%
     .header
         &__account_burger
             display: flex
@@ -83,3 +81,4 @@
 ._burger-active
     left: 0
     z-index: 5
+    overflow: auto !important
