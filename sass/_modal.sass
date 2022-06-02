@@ -1,11 +1,12 @@
 .modal-body
     &__design
-        display: flex
-        flex-direction: row
+        display: grid
+        // flex-direction: row
         gap: 88px
         // padding: 0 18px
         justify-content: space-between
         margin-bottom: 34px
+        grid-template-columns: repeat(2, auto)
     &__url
         margin-bottom: 34px
         &_input
@@ -22,10 +23,10 @@
             height: 35px
             border: 0
     &__attention
-        display: flex
+        display: grid
         gap: 17px
         margin-bottom: 42px
-        flex-wrap: wrap
+        grid-template-columns: repeat(2, auto)
         &_img
             flex-shrink: 0
         &_title
@@ -35,7 +36,7 @@
 
 .modal-body__design-template_select,
 .modal-body__design-color_select
-    width: 240px
+    width: 206px !important
     color: #78817b
     font-size: 12px
     height: 36px
