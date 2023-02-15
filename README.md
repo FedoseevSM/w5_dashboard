@@ -11,6 +11,6 @@
 > - 02.06 - Загружена основная часть проекта
 > - 02.06 - Добавлена оптимизация для мобильных устройств
 >
-> **GitHub Pages:** https://samgxlden.github.io/w5_dashboard/
+> **GitHub Pages:** https://fedoseevsm.github.io/w5_dashboard
 >
-> **Макет:** https://github.com/samgxlden/w5_dashboard/blob/main/source/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82.psd
+> **Макет:** https://github.com/fedoseevsm/w5_dashboard/blob/main/source/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82.psd
